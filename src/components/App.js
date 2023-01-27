@@ -16,7 +16,9 @@ const App = () => {
     <div id="main">
       <label>Enter a Value to save in localStorage</label>
       <input type="text" id="value" ref={inputRef} />
-      <button id="set" onClick={submitHandler}>
+      <button id="set" 
+      onClick={submitHandler}
+      >
         Set Value
       </button>
     </div>
